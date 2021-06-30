@@ -1,9 +1,9 @@
 import React from 'react'
-import Expenses from './components/Expenses';
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from './components/Expenses/Expenses';
+//import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
-
+  
   const expenses = [{
     id: 'e1',
     title: 'Toilet Paper',
@@ -32,8 +32,8 @@ function App() {
   ]
   return (
     <div>
-      <h2>STARTED</h2>
-      <Expenses items={expenses} />
+      <h2>LETS GET STARTED!!!</h2>
+      <Expenses items={expenses}/>
     </div>
   );
 }
